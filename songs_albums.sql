@@ -41,30 +41,30 @@ VALUES
 ;
 
 
--- SELECT * FROM Songs;
+SELECT * FROM Songs;
 
--- SELECT * FROM Albums;
+SELECT * FROM Albums;
 
 /* 
  * Table join query to construct a table of Song Name : Album Name
  */
--- SELECT * FROM Songs
--- JOIN Albums ON Songs.album_id = Albums.id;
+SELECT * FROM Songs
+JOIN Albums ON Songs.album_id = Albums.id;
 
 
 /*
  * Finds all albums published between 1970 and 1980.
  */
--- SELECT * FROM Albums
--- where Albums.year_published  <= 1970 And Albums.year_published >= 1980;
+SELECT * FROM Albums
+where Albums.year_published  <= 1970 And Albums.year_published >= 1980;
 
 /*
  * Finds all songs on albums published between 1970 and 1980. 
  */
 
--- SELECT * FROM Songs
--- JOIN Albums ON Songs.album_id = Albums.id
--- where Albums.year_published  <= 1970 And Albums.year_published >= 1980;
+SELECT * FROM Songs
+JOIN Albums ON Songs.album_id = Albums.id
+where Albums.year_published  <= 1970 And Albums.year_published >= 1980;
 
  
 /*
