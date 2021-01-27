@@ -70,7 +70,7 @@ VALUES
 /*
  * Finds all songs on albums with names containing 'California'.
  */
-SELECT * FROM Albums
+
 SELECT * FROM Songs
 JOIN Albums ON Songs.album_id = Albums.id
-where Albums like "%California%"
+where name like "%California%";
