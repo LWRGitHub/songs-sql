@@ -30,14 +30,11 @@ VALUES
 INSERT INTO Songs
     (title, album_id)
 VALUES
-    ('J.D. Salinger', 1),
-    ('F. Scott. Fitzgerald', 2),
-    ('Jane Austen', 3),
-    ('Scott Hanselman', 4),
-    ('Jason N. Gaylord', 5),
-    ('Pranav Rastogi', 1),
-    ('Todd Miranda', 2),
-    ('Christian Wenz', 3)
+    ('The Dark Side of the Moon', 1),
+    ('Abbey Road', 2),
+    ('Hotel California', 3),
+    ('Born in the U.S.A.', 4),
+    ('California', 5)
 ;
 
 
