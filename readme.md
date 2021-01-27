@@ -20,4 +20,4 @@ sqlite3 < songs_albums.sql
 
 
 ## Img
-<img alt="Screen Shot of terminal app after running the app" src="https://github.com/lwrgithub/songs-sql/blob/master/songs-sql-screenshot.png">
+<img alt="Screen Shot of terminal app after running the app" src="https://github.com/lwrgithub/songs-sql/blob/master/songs-sql-screenshot2.png">
